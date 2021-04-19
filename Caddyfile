@@ -1,0 +1,9 @@
+internal.localhost {
+  root internal
+  php_fastcgi localhost:9000
+}
+
+external.localhost {
+  root external
+  php_fastcgi localhost:9000
+}
